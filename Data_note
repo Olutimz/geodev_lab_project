@@ -1,0 +1,26 @@
+#Data Notes
+
+
+##Grid 3 Nigeria LGA Boundary
+Source: https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about
+Downloaded: 13/09/2026
+774 Features, Polygons
+Columns: lganame (text), state name(text)
+No nulls
+Covers all of Nigeria
+
+##OSM Ikorodu LGA Roads
+Source: OSM in QGIS
+Downloaded: 13/09/2026
+16600 Features, Lines
+Columns: osm_type (text), highway (text), surface (text), lanes (integer)
+Nulls present in some columns
+Covers all of Ikorodu LGA
+
+##GRID3 Health Facilities
+Source: https://data.grid3.org/search?categories=health%20facilities
+Downloaded: 13/09/2026
+51022 Features, Points
+Columns: state (text), lga (text), ownership (text), facility_1 (text)
+No nulls
+Covers all of Nigeria
