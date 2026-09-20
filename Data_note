@@ -1,7 +1,7 @@
 #Data Notes
 
 
-##Grid 3 Nigeria LGA Boundary
+##Grid 3 Nigeria LGA Boundaries
 Source: https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about
 Downloaded: 13/09/2026
 774 Features, Polygons
@@ -24,3 +24,10 @@ Downloaded: 13/09/2026
 Columns: state (text), lga (text), ownership (text), facility_1 (text)
 No nulls
 Covers all of Nigeria
+
+##CRS and oreparation
+- All source layers arrived in EPSG:4326
+- Study area: Ikorodu LGA, extracted from Grid 3 Nigeria LGA Boundaries
+- All layers clipped to study area, then reprojected to EPSG: 32631 (UTM 31N)
+- Area Check: Ikorodu LGA, 413.02 km²
+- Working files in 'Clipped and Reprojected/' raw fies untouched
